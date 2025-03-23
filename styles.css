@@ -1,0 +1,23 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('/drumkit/drumkit.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.key {
+  transition: all 0.2s ease-in-out;
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(160, 41, 41, 0.884);
+  border-color: rgba(255, 0, 0, 0.884);
+}
