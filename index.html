@@ -8,80 +8,118 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="flex flex-col justify-center items-center">
+    <div class="flex flex-col items-center min-h-screen">
       <div>
-        <h1 class="font-bold text-4xl pt-10">DRUM KIT</h1>
+        <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl sm:pt-10">
+          DRUM KIT
+        </h1>
       </div>
 
       <!-- these are the keys that we will use js on -->
 
       <div
-        class="mt-44 bg-[#FFFFFF7A] flex justify-center items-center rounded-md"
+        class="mt-10 sm:mt-20 md:mt-44 bg-[#FFFFFF7A] flex justify-center items-center rounded-md p-2 sm:p-4"
       >
         <!-- to get the key codes you can use keycode.info website -->
-        <div class="keys flex">
+        <div class="keys flex flex-wrap justify-center">
           <div
             data-key="65"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">A</p>
-            <span class="sound">clap</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              A
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">clap</span>
           </div>
           <div
             data-key="83"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">S</p>
-            <span class="sound">hihat</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              S
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">hihat</span>
           </div>
           <div
             data-key="68"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">D</p>
-            <span class="sound">kick</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              D
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">kick</span>
           </div>
           <div
             data-key="70"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">F</p>
-            <span class="sound">openhat</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              F
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">openhat</span>
           </div>
           <div
             data-key="71"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">G</p>
-            <span class="sound">boom</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              G
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">boom</span>
           </div>
           <div
             data-key="72"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">H</p>
-            <span class="sound">ride</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              H
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">ride</span>
           </div>
           <div
             data-key="74"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">J</p>
-            <span class="sound">snare</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              J
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">snare</span>
           </div>
           <div
             data-key="75"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">K</p>
-            <span class="sound">tom</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              K
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">tom</span>
           </div>
           <div
             data-key="76"
-            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-5 p-6"
+            class="key rounded-md flex flex-col justify-center items-center bg-[linear-gradient(135deg,#ffec61,#f321d7)] m-2 sm:m-3 md:m-5 p-3 sm:p-4 md:p-6"
           >
-            <p class="px-7 pb-5">L</p>
-            <span class="sound">tink</span>
+            <p
+              class="text-sm sm:text-base md:text-lg px-3 sm:px-5 md:px-7 pb-2 sm:pb-3 md:pb-5"
+            >
+              L
+            </p>
+            <span class="sound text-xs sm:text-sm md:text-base">tink</span>
           </div>
         </div>
       </div>
